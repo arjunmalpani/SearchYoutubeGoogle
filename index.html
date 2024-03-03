@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    
+    <!-- Search 1 -->
+
+    <div class="box">
+        <div class="heading">
+            <h3>Search for Google</h3>
+        </div>
+        <input type="checkbox" name="search"  id="check">
+        <div class="search-box search-google">
+            <form action="https://www.google.com/search" method="GET" target="_blank">
+            <input type="text" name="q" placeholder="Search Google..."autocomplete="off" >     
+            <label for="check" class="icon">
+                <i class="fas fa-search"></i>
+            </label>
+        </form>
+        </div>  
+    </div>
+    
+    <!-- Search 2 -->
+
+    <div class="box">
+        <div class="heading">
+            <h3>Search for Youtube</h3>
+        </div>
+        <input type="checkbox" name="search" id="check-yt">
+        <div class="search-box search-yt">
+            <form action="https://www.youtube.com/results" method="GET" target="_blank">
+            <input type="search" name="search_query" placeholder="Search Youtube..." autocomplete="off">     
+            <label for="check-yt" class="icon">
+                <i class="fas fa-search"></i>
+            </label>
+        </form>
+        </div>  
+    </div>
+</body>
+</html>
